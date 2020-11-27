@@ -5,7 +5,7 @@ from .forms import CityForm
 # Create your views here.
 def index(request):
     #return HttpResponse("this is home page")
-    url='http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid={"your key"}'
+    url='http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid={"your key"}' #please make sure about the api thing where there will be private id
   
     weather_data=[]
 
